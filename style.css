@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap");
+* {
+  font-family: "Dosis", sans-serif !important;
+}
+.navbar-brand {
+  color: #bdbdbd !important;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+header section {
+  height: 500px !important;
+}
+.carousel-inner img {
+  height: 500px;
+  object-fit: cover;
+  object-position: top center;
+}
+.carousel-caption {
+  bottom: 6rem;
+  right: 0;
+  font-size: 40px;
+}
+.carousel-caption p {
+  font-weight: 200;
+  font-size: 3.5rem;
+}
+h2 {
+  font-size: 60px;
+  font-weight: 600;
+}
+.dream {
+  color: #ffa000;
+}
+.special h3 {
+  color: #616161;
+}
+.special p {
+  color: #616161;
+}
+h6 {
+  color: #616161;
+}
+.descriptions {
+  font-size: 12px !important;
+}
+
+.fs-2rem {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.col-md-6 {
+  align-self: flex-start !important;
+}
+
+.c-circle {
+  margin-bottom: 4rem;
+}
+.circleIcone {
+  background-color: #424242;
+  border-radius: 50%;
+  padding: 35px 40px;
+  font-size: 33px;
+  color: white;
+}
+.LearnMore {
+  color: #ffc400;
+}
+.countNum {
+  background-color: #ffab00;
+  padding: 2px 11px;
+  border-radius: 50%;
+  font-size: 18px;
+  color: black;
+  top: 0;
+  right: 5px;
+  font-weight: 600;
+}
+.arrowRight {
+  position: absolute;
+  left: 130px;
+  color: #616161;
+  font-size: 55px;
+  top: 4px;
+}
+
+.card-title {
+  font-weight: 600;
+}
+.bg-secondary {
+  background-color: rgb(197, 197, 197) !important;
+}
+.carded {
+  font-weight: 800 !important;
+}
+.card-text:last-child {
+  margin-bottom: 16px !important;
+}
+
+.nav {
+  flex-direction: column !important;
+  flex-wrap: nowrap !important;
+}
+hr {
+  opacity: 1;
+  width: 70px;
+  border: 2px solid #000 !important;
+
+  margin: 0 auto;
+}
+.icones {
+  font-size: calc(1.325rem + 0.9vw);
+  padding: 0.1rem;
+  cursor: pointer;
+}
+.icon-bottom {
+  background-color: #fff;
+  border-radius: 50px;
+  font-size: calc(1.325rem + 0.9vw);
+  padding: 2px 5px;
+  cursor: pointer;
+}
+
+.xsmall-2 {
+  margin: 0 1.5rem 0 1.5rem;
+}
+@media (max-width:991px){
+  .arrowRight {
+    visibility: hidden;
+  }
+}
+@media (max-width: 768px) {
+  .coulumn-small {
+    flex-direction: column;
+  }
+}
+@media (max-width:768px) {
+  .xsmall-1 {
+    order: 1;
+  }
+  .xsmall-2 {
+    order: 2;
+    margin: 0;
+  }
+  .xsmall-2 h4,
+  h6,
+  p,
+  ul {
+    padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+  }
+}
